@@ -1,0 +1,109 @@
+body {
+    /* background: url('../../images/background.jpg') no-repeat center center fixed;
+    background-size: cover; */
+    background: rgb(84,71,244);
+    background: linear-gradient(90deg, rgba(84,71,244,1) 27%, rgba(64,36,143,1) 78%);
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+#active_links{
+    
+    font-size: 25px;
+}
+
+#container {
+    height: 60vh;
+
+
+}
+
+#input_url {
+    max-width: 1000px;
+    width: 100%;
+
+    margin: 0;
+    height: 55px;
+    background-color: #BABABA;
+    border: 0;
+    font-size: 25px;
+}
+
+#btn_submit {
+    width: 100%;
+    
+    height: 55px;
+}
+
+#btn_copy {
+    width: 100%;
+    max-width: 300px;
+    height: 55px;
+    min-width: 70px;
+}
+
+/* section {
+   background-color: #030E3A;
+} */
+
+.card {
+    background-color: #BABABA;
+    border: 0;
+}
+
+/* section {
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: white;
+} */
+h1{
+    
+    font-weight: 700;
+    color: white;
+}
+h2{
+    
+    font-size: 20px;
+    font-weight: 300;
+    color: white; 
+}
+#button_long_url{
+    height: 80px; width: 10%; 
+    border-right: none;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
+     
+    font-size: 23px;
+    font-weight: 400;
+    color: white; 
+}
+/* /* #input_long_url{
+    height: 80px; width: 10%; 
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+     
+} */
+
+#input_long_url{
+    /* background-image: url("../images/link.svg") no-repeat; */
+    
+    font-size: 23px;
+    font-weight: 400;
+    color: black;
+}
+
+
+  #button_copy_url{
+    
+    height: 80px; width: 10%; 
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    font-size: 23px;
+    font-weight: 400;
+    color: white; 
+  }
